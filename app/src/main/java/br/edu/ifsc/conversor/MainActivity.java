@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private double converterKpf(double v) {
-        return (v - 273.15) * 9/5 + 32;
+        return ((v - 273.15) * 0.555555556 )+ 32;
     }
 
     private double converterkpc(double v) {
@@ -67,13 +67,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private double converterFpc(double v) {
-        return v -32* 5/9;
+        return (v - 32)* 0.555555556;
     }
 
     private double converterFpK(double v) {
 
 
-        return (v - 32) * 5/9 + 273.15;
+        return ((v - 32) * 0.555555556 )+ 273.15;
     }
 
     private double converterCpF(double v) {
@@ -81,6 +81,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private double converterCelsiusF(double v1) {
-        return  (v1 * 9/5) + 32;
+        return  (v1 * 0.555555556) + 32;
     }
 }
