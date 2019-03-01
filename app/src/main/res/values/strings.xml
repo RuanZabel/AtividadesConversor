@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Conversor</string>
+    <string name="country_prompt">a</string>
+
+    <string-array name="consersor">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+</resources>
